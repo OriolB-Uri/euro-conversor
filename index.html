@@ -17,8 +17,8 @@
             <input v-model="amount" type="number" placeholder="">
         </label>
 
-        <h3>Converted to dollars: {{ convertToDollars }} </h3>
-        <h3>Converted to yens: </h3>
+        <h3>Converted to dollars: {{ convertToDollars.toFixed(2) }} </h3>
+        <h3>Converted to yens: {{ convertToYens.toFixed(2) }} </h3>
     </main>
     <script type="module" src="app.js"></script>
 
